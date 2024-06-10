@@ -557,6 +557,14 @@ video {
   font-weight: 700;
 }
 
+.msc-btn-sm {
+  height: 1.75rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .msc-btn-blue-solid {
   cursor: pointer;
   --tw-text-opacity: 1;
@@ -601,6 +609,26 @@ video {
   outline-color: #424242;
 }
 
+.msc-btn-transparent {
+  background-color: transparent;
+  color: #1C58EE;
+}
+
+.msc-btn-transparent:hover {
+  background-color: #F1F5FE;
+}
+
+.msc-btn-transparent:active {
+  background-color: #0d3aa933;
+}
+
+.msc-btn-transparent:focus-visible {
+  outline-style: dashed;
+  outline-width: 1px;
+  outline-offset: 4px;
+  outline-color: #424242;
+}
+
 .static {
   position: static;
 }
@@ -611,4 +639,51 @@ video {
 
 .relative {
   position: relative;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.p-5 {
+  padding: 1.25rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-\[3rem\] {
+  font-size: 3rem;
+}
+
+.font-bold {
+  font-weight: 700;
 }
