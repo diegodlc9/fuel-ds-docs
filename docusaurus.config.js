@@ -73,14 +73,16 @@ const config = {
 				title: 'Fuel',
 				logo: {
 					alt: 'MSC Logo',
-					src: 'img/msc-logo.svg'
+					src: 'img/msc-logo.svg',
+					width: 64,
+					height: 64,
 				},
 				items: [
 					{
 						type: 'docSidebar',
 						sidebarId: 'tutorialSidebar',
 						position: 'left',
-						label: 'Docs'
+						label: 'Components'
 					}
 					// { to: '/blog', label: 'Blog', position: 'left' }
 					// {
@@ -136,7 +138,7 @@ const config = {
 			// 	copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`
 			// },
 			prism: {
-				theme: prismThemes.github,
+				theme: prismThemes.oneDark,
 				darkTheme: prismThemes.dracula
 			}
 		}),
