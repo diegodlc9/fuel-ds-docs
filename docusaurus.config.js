@@ -10,7 +10,7 @@ import tailwindPlugin from './plugins/tailwind-config.cjs';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
 	title: 'Fuel Design System',
-	tagline: 'Dinosaurs are cool',
+	tagline: 'A unified visual language that combines typography, color schemes, and UI elements to ensure brand consistency and usability throughout a product’s ecosystem.',
 	favicon: 'img/favicon.ico',
 
 	// Set the production url of your site here
@@ -68,12 +68,12 @@ const config = {
 				respectPrefersColorScheme: false
 			},
 			// Replace with your project's social card
-			image: 'img/docusaurus-social-card.jpg',
+			image: 'img/msc-logo.svg',
 			navbar: {
 				title: 'Fuel',
 				logo: {
-					alt: 'My Site Logo',
-					src: 'img/logo.svg'
+					alt: 'MSC Logo',
+					src: 'img/msc-logo.svg'
 				},
 				items: [
 					{
