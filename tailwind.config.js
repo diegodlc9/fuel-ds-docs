@@ -3,7 +3,7 @@ const colors = require('./utilities/colors');
 
 module.exports = {
 	content: [
-		//'./src/**/*.{js,jsx,ts,tsx,html}',
+		'./src/**/*.{js,jsx,ts,tsx,html}',
 		//'./pages/**/*.{html,js}',
 		//'./index.html',
 		'./docs/**/*.{js,jsx,ts,tsx,html,mdx}'
@@ -34,5 +34,8 @@ module.exports = {
 			}
 		}
 	},
-	plugins: [require('./msc-components/msc-buttons')]
+	plugins: [
+		require('./msc-components/msc-buttons'),
+		require('./msc-components/msc-icons'),
+	]
 };

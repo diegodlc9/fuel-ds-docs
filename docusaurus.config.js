@@ -9,7 +9,7 @@ import tailwindPlugin from './plugins/tailwind-config.cjs';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-	title: 'Fuel Design System',
+	title: 'MSC Design System',
 	tagline: 'A unified visual language that combines typography, color schemes, and UI elements to ensure brand consistency and usability throughout a product’s ecosystem.',
 	favicon: 'img/favicon.ico',
 
